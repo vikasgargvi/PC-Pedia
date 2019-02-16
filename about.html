@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>PC Pedia - About</title>
+        <link type="text/css" rel="stylesheet" href="css/materialize.css"/>
+        <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    </head>
+
+<body style="background: url(images/bg_main.jpg);background-size: cover;">      
+    <!--Top Navigation Bar-->
+    <div class="navbar-fixed">
+        <nav class="blue">
+            <div class="nav-wrapper">
+              <a href="#" data-activates="slide-out" class="button-collapse"><img src="images/menu_icon.png" width="34px" style="margin-top:14;"></a>
+              <a href="index.html" class="brand-logo center"><img src="images/computer-vector-2.png" style="margin-left:13;margin-top:-3;" height="70px" width="70px"/></a>
+            </div>
+        </nav>
+    </div>
+    
+    <!--Side Navigation Bar-->
+      <ul id="slide-out" class="side-nav">
+        <li class="bold"><a href="index.html" class="waves-effect waves-teal"><img src="images/home_icon.png" width="25px" style="margin-top:10;margin-right:8;float:left;">Home</a></li>
+        <li class="bold"><a href="about.html" class="waves-effect waves-teal"><img src="images/info_icon.png" width="25px" style="margin-top:10;margin-right:8;float:left;">About</a></li>
+        <ul class="collapsible" data-collapsible="accordion">
+            <li class="bold">
+                <div class="collapsible-header">
+                <img src="images/computer_icon.png" height="33px" width="30px" style="margin-top:10;margin-right:8;margin-left:8;float:left;">Components<img src="images/arrow_down_icon.png" style="float:right;margin-top:14;margin-right:10;" width="20px">
+                </div>
+                <div class="collapsible-body">
+			        <div class="row">
+				        <div class="col s12 m12">
+				        	<ul class="collapsible" data-collapsible="accordion">
+					        	<li>
+						        	<div class="collapsible-header">
+						        		<img src="images/cpu_logo.png" height="33px" width="30px" style="margin-top:10;margin-right:8;margin-left:8;float:left;">System Unit<img src="images/arrow_down_icon.png" style="float:right;margin-top:14;margin-right:19;" width="20px"></div>
+                                    <div class="collapsible-body"><a href="motherboard.html" class="waves-effect"><img src="images/motherboard_logo.png" height="33px" width="30px" style="margin-top:10;margin-right:8;float:left;">Motherboard</a></div>
+                                    <div class="collapsible-body"><a href="processor.html" class="waves-effect"><img src="images/processor_logo.png" height="33px" width="30px" style="margin-top:10;margin-right:8;float:left;">Processor</a></div>
+                                    <div class="collapsible-body"><a href="memory.html" class="waves-effect"><img src="images/ram_logo.png" height="33px" width="30px" style="margin-top:10;margin-right:8;float:left;">Memory</a></div>
+                                    <div class="collapsible-body"><a href="storage.html" class="waves-effect"><img src="images/hdd_logo.png" height="33px" width="30px" style="margin-top:10;margin-right:8;float:left;">Storage</a></div>
+                                    <div class="collapsible-body"><a href="smps.html" class="waves-effect"><img src="images/smps_logo.png" height="33px" width="30px" style="margin-top:10;margin-right:8;float:left;">Power Supply</a></div>
+                                    <div class="collapsible-body"><a href="gpu.html" class="waves-effect"><img src="images/gpu_icon.png" height="33px" width="30px" style="margin-top:10;margin-right:8;float:left;">Graphics Card</a></div>
+					        	</li>
+						        <li>
+							        <div class="collapsible-header">
+                                        <img src="images/peripheral_logo.png" height="33px" width="30px" style="margin-top:10;margin-right:8;margin-left:8;float:left;">Peripherals<img src="images/arrow_down_icon.png" style="float:right;margin-top:14;margin-right:19;" width="20px"></div>
+                                    <div class="collapsible-body"><a href="monitor.html" class="waves-effect"><img src="images/monitor_logo.png" height="33px" width="30px" style="margin-top:10;margin-right:8;float:left;">Monitor</a></div>
+                                    <div class="collapsible-body"><a href="keyboard.html" class="waves-effect"><img src="images/keyboard_logo.png" height="33px" width="30px" style="margin-top:10;margin-right:8;float:left;">Keyboard</a></div>
+                                    <div class="collapsible-body"><a href="mouse.html" class="waves-effect"><img src="images/mouse_logo.png" height="33px" width="30px" style="margin-top:10;margin-right:8;float:left;">Mouse</a></div>
+                                </li>
+					        </ul>
+				        </div>
+			        </div>
+		        </div>
+            </li>
+          </ul>
+        <li class="bold"><a href="query.html" class="waves-effect waves-teal"><img src="images/query_icon.png" width="25px" style="margin-top:10;margin-right:8;float:left;">Enquiry</a></li>
+    </ul>
+     
+    <h1 class="center header title blue-text text-lighten-2" style="font-family: 'Architects Daughter', cursive;font-weight:800;text-transform:uppercase;">About</h1>
+    
+    <main class="valign-wrapper">
+    <span class="container grey-text text-lighten-1 ">
+
+
+      <p class="flow-text">PC Pedia: Complete PC Building Guide. Through PC Pedia, you can build your PC by yourself and if you have any queries or suggestions you can visit our Enquiry page and fill out the form so that we can contact you. This website contains complete information about the different components of Computer System. Along with the details of components, their most trusted manufacturers are also given so the target audience would not end up buying faulty or low quality products. </p>
+         </span>
+
+    </main>
+     
+     
+    <script type="text/javascript" src="js/jquery-3.2.0.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
+    <script type="text/javascript">
+         $(document).ready(function(){
+             $('.parallax').parallax();
+             $(".button-collapse").sideNav();
+             $('.collapsible').collapsible();
+         });
+    </script>
+    </body>
+  </html>
